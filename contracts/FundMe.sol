@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.6.;
+pragma solidity ^0.6.0;
 
 import "@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol";
 import "@chainlink/contracts/src/v0.6/vendor/SafeMathChainlink.sol";
@@ -12,7 +12,7 @@ contract FundMe {
     address[] public funders;
     address public owner;
     AggregatorV3Interface public priceFeed;
-    
+
     // if you're following along with the freecodecamp video
     // Please see https://github.com/PatrickAlphaC/fund_me
     // to get the starting solidity contract code, it'll be slightly different than this!
